@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="OceanToolkit.css">
+    <title>Ocean template</title>
+</head>
+
+<body>
+    <section id="grid">
+        <div id="ele-one" class="elements">
+            <div class="tile-headings">Evaporation</div>
+            <button class="btn" id="evaporation">Off</button>
+        </div>
+        <div id="ele-two" class="elements">
+            <div class="tile-headings">Precipitation</div>
+            <button class="btn" id="precipitation">Off</button>
+        </div>
+        <div id="ele-three" class="elements">
+            <div class="split">
+                <div class="tile-headings">Evaporation Settings</div>
+                <div>
+                    <button class="btn" id="b1">Inc</button>
+                    <button class="btn" id="b2">Dec</button>
+                    <div class="meter" id="meter1">Meter : <span id="meter-value1">Normal</span></div>
+                </div>
+            </div>
+            <div class="split">
+                <div class="tile-headings">Precipitation Settings</div>
+                <div>
+                    <button class="btn" id="b3">Inc</button>
+                    <button class="btn" id="b4">Dec</button>
+                    <div class="meter" id="meter2">Meter : <span id="meter-value2">High</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="ele-four" class="elements">
+            <div class="tile-headings">Night Mode</div>
+            <div>Night Mode : <button id="night" class="btn">Disabled</button></div>
+        </div>
+        <div id="ele-five" class="elements">
+            Filter
+            <div>Blue :
+                <button class="btn" id="blue-light">Close</button>
+            </div>
+        </div>
+        <div id="ele-six" class="elements">
+            Filter
+            <div>Red :
+                <button class="btn" id="red-light">Close</button>
+            </div>
+        </div>
+        <div id="ele-seven" class="elements">
+            SnowFlakes
+            <button class="btn" id="snow">Off</button>
+            <div class="split">
+                <div class="tile-headings">SnowFlakes Settings</div>
+                <div>
+                    <button class="btn" id="b5">Inc</button>
+                    <button class="btn" id="b6">Dec</button>
+                    <div class="meter" id="meter3">Meter : <span id="meter-value3">Normal</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="ele-eight" class="elements">
+            A Simulation made by Pure HTML, CSS and JavaScript...
+        </div>
+    </section>
+    <section id="screen"></section>
+    <section id="ocean"></section>
+    <script src="OceanToolkit.js"></script>
+</body>
+
+</html>
